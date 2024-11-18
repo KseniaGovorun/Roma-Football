@@ -32,29 +32,31 @@
             <img src="img/cm.png" alt="Command">
         </div>
         <section class="section">
-            <h2>Buy Me a Coffee</h2>
-            <img class="image-coffee" src="img/coffe.jpg" alt="Buy-me-a-coffee">
-            <p>Buy Me a Coffee makes supporting fun and easy. In just a couple of taps, you can support the AS Roma, make the payment (buy you a coffee) and leave a message.</p>
-        </section>
-        <section class="registration-section">
-            <h2>FAN registration</h2>
-            <form class="registration-form" action="#" method="post">
-                <div class="form-group">
-                    <label for="username">Name of our fan:</label>
-                    <input type="text" id="username" name="username" required>
+            <h2>FAN APPEAL</h2>
+            <div class="appeal">
+                <p class="appeal-text">I believe in your victory!</p>
+                <div class="appeal-footer">
+                    <span class="appeal-date">11.11.24, 11:30:45</span>
+                    <span class="appeal-author">FootballFan2012</span>
                 </div>
-                <div class="form-group">
-                    <label for="password">Password:</label>
-                    <input type="password" id="password" name="password" required>
+                <hr />
+            </div>
+            <div class="appeal">
+                <p class="appeal-text">You are my favourite team;)</p>
+                <div class="appeal-footer">
+                    <span class="appeal-date">15.11.24, 13:30:12</span>
+                    <span class="appeal-author">FootballFan2013</span>
                 </div>
-                <div class="form-group">
-                    <label for="confirm-password">Password confirmation:</label>
-                    <input type="password" id="confirm-password" name="confirm-password" required>
-                </div>
-                <button type="submit">Log in</button>
+                <hr />
+            </div>
+            <div id="appealsList"></div>
+            <form id="appealForm">
+                <textarea id="appeal" name="appeal" rows="4" cols="50" placeholder="Enter your fan appeal here..."></textarea><br>
+                <button type="submit">Submit Appeal</button>
             </form>
         </section>
-        <section class="section">
+
+        <section class="section-im">
             <img class="image-player" src="img/Pl7.png" alt="Player7">
             <img class="image-player" src="img/Pl1.png" alt="Player1">
             <img class="image-player" src="img/Pl2.png" alt="Player2">
@@ -67,5 +69,6 @@
     <footer>
         <p>© 2024 - all rights reserved. The AS Roma.</p>
     </footer>
+    <script src="js/fans.js"></script>
 </body>
 </html>

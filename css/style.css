@@ -136,3 +136,21 @@ footer {
 .active {
     background-color: #e3e00d;
 }
+
+input.invalid, textarea.invalid {
+    border: 2px solid red;
+}
+
+form {
+    margin: 100px;
+}
+
+#successMessage {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#imagePreview {
+    margin-top: 20px;
+}
